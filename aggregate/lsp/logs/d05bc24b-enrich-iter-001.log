@@ -1,0 +1,18 @@
+[2026-10-02T11:29:55Z] === ENRICH ITERATION 1 START | repo=block/ide-metrics-plugin sha=d05bc24b ===
+[2026-10-02T11:29:55Z] [iter=1] PHASE START: enrich repo=block/ide-metrics-plugin sha=d05bc24b runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/d05bc24b-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/d05bc24b7f0e06513236e598e4e8fea669887531.nq.gz
+[2026-10-02T11:29:55Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-10-02T11:29:57Z] [iter=1] AST store loaded triples=127933 load_secs=2 mem_mb=295 MB
+[2026-10-02T11:29:57Z] [iter=1] Step 2: Finding LSP targets mem_mb=295 MB
+[2026-10-02T11:29:57Z] [iter=1] LSP targets found call_sites=942 imports=304 extends=0 implements=0 secs=0
+[2026-10-02T11:29:58Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=295 MB
+[2026-10-02T11:29:58Z] [iter=1] Position index built positions=7904 nodes_with_types=9684 secs=1 mem_mb=295 MB
+[2026-10-02T11:29:58Z] [iter=1] Step 3: Starting LSP resolution mem_mb=295 MB already_completed_types=[] already_completed_files=0
+[2026-10-02T11:29:58Z] [iter=1] Resolving target type target_type=call_site count=942
+[2026-10-02T11:30:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=35 resolved=39 errors=263 current=src/main/kotlin/xyz/block/idea/telemetry/submitters/eventstream/EventstreamSubmitter.kt
+[2026-10-02T11:30:53Z] [iter=1] Target type resolved target_type=call_site resolved=41 errors=284 secs=54 mem_mb=295 MB
+[2026-10-02T11:30:53Z] [iter=1] Resolving target type target_type=import_statement count=304
+[2026-10-02T11:30:57Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=1.0 files_done=1 resolved=0 errors=0 current=kotlin-eventstream2/protos/src/main/kotlin/com/squareup/protos/sawmill/LogEventStreamV2Response.kt
+[2026-10-02T11:31:10Z] [iter=1] Target type resolved target_type=import_statement resolved=0 errors=0 secs=17 mem_mb=295 MB
+[2026-10-02T11:31:28Z] [iter=1] Step 5: Writing final enrichment file triples=6370
+[2026-10-02T11:31:28Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/d05bc24b7f0e06513236e598e4e8fea669887531.nq.gz size_kb=113
+[2026-10-02T11:31:28Z] [iter=1] PHASE END: enrich elapsed_s=93 elapsed_min=1.6 total_triples=6370
