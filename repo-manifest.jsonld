@@ -8,8 +8,9 @@
     {
       "@id": "https://repolex.ai/r/block/ide-metrics-plugin/commit/d05bc24b7f0e06513236e598e4e8fea669887531",
       "git:hexsha": "d05bc24b7f0e06513236e598e4e8fea669887531",
-      "repolex:parseStatus": "enrich_complete",
-      "git:tagName": "v0.2.14"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v0.2.14",
+      "repolex:parsedAt": "2026-10-02T11:32:45.288087+00:00"
     },
     {
       "@id": "https://repolex.ai/r/block/ide-metrics-plugin/commit/6fbffdcddc02e5c2b658d7655c873d5414213808",

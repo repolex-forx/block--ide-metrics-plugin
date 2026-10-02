@@ -97,7 +97,8 @@
       "ast": [
         "aggregate/ast/d05bc24b7f0e06513236e598e4e8fea669887531/chunk-001.nq.gz"
       ],
-      "lsp": "aggregate/lsp/d05bc24b7f0e06513236e598e4e8fea669887531.nq.gz"
+      "lsp": "aggregate/lsp/d05bc24b7f0e06513236e598e4e8fea669887531.nq.gz",
+      "repolex": "aggregate/repolex/d05bc24b7f0e06513236e598e4e8fea669887531/chunk-001.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
