@@ -1,0 +1,11 @@
+{
+  "org": "block",
+  "repo": "ide-metrics-plugin",
+  "versions": [
+    {
+      "commit": "d05bc24b7f0e06513236e598e4e8fea669887531",
+      "tag": "main",
+      "parsed_at": "2026-10-02T11:32:45.461478+00:00"
+    }
+  ]
+}
